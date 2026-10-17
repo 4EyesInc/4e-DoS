@@ -7,7 +7,6 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 test_data = os.urandom(16)
 
 os.system("clear")
-#os.system("figlet 4Eyes-Ddos")
 print(r""" _  _   _____                      ____      _           
 | || | | ____|   _  ___  ___      |  _ \  __| | ___  ___ 
 | || |_|  _|| | | |/ _ \/ __|_____| | | |/ _` |/ _ \/ __|
@@ -30,7 +29,7 @@ print(r""" _  _              ____      _
    |_|  \___|     |____/ \__,_|\___/|___/
 """)
 print("Team : 4eyes")
-print("\033[92m")
+print ("\033[92m")
 print("__________________________4_Eyes_______________________________")
 time.sleep(3)
 print("DoS ATTACK STARTED.")
