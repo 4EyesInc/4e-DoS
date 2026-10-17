@@ -32,14 +32,8 @@ os.system("clear")
 os.system("figlet 4e-Ddos")
 print("Team : 4eyes")
 print ("\033[92m")
-print "__________________________4_Eyes_______________________________"
-time.sleep(5)
-print "_________________ESTABLISHING CONNECTION_______________________"
-time.sleep(5)
-print "_________0100100 BYPASSING SECURITY LAYER 001010_______________"
-time.sleep(5)
-print "_________________CONNECTION ESTABLISHED________________________"
-time.sleep(5)
+print "__________________________4_Eyes_______________________________"  
+time.sleep(3)
 print "    DoS ATTACK STARTED."
 time.sleep(3)
 sent = 0
