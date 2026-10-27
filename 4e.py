@@ -7,10 +7,13 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 test_data = os.urandom(16)
 
 os.system("clear")
-print(r"""▖▖▄▖  ▄   ▄▖
-▙▌▙▖▄▖▌▌▛▌▚ 
- ▌▙▖  ▙▘▙▌▄▌
-            "")
+print(r""" _   ___  _______         ______   _______  _______ 
+| | |   ||       |       |      | |       ||       |
+| |_|   ||    ___| ____  |  _    ||   _   ||  _____|
+|       ||   |___ |____| | | |   ||  | |  || |_____ 
+|___    ||    ___|       | |_|   ||  |_|  ||_____  |
+    |   ||   |___        |       ||       | _____| |
+    |___||_______|       |______| |_______||_______|"")
 print("Author   : mrwin & plasma")
 print("Github   : github.com/mrwin")
 print("Note: This tool is illegal to misuse and is for educational purposes only. Use it at your own risk. We aren't responsible for your actions.")
@@ -20,10 +23,13 @@ ip = input("IP Target : ")
 port = int(input("Port: "))
 
 os.system("clear")
-print(r"""▖▖▄▖  ▄   ▄▖
-▙▌▙▖▄▖▌▌▛▌▚ 
- ▌▙▖  ▙▘▙▌▄▌
-            """)
+print(r""" _   ___  _______         ______   _______  _______ 
+| | |   ||       |       |      | |       ||       |
+| |_|   ||    ___| ____  |  _    ||   _   ||  _____|
+|       ||   |___ |____| | | |   ||  | |  || |_____ 
+|___    ||    ___|       | |_|   ||  |_|  ||_____  |
+    |   ||   |___        |       ||       | _____| |
+    |___||_______|       |______| |_______||_______|""")
 print("\033[92m")
 print("__________________________4_Eyes_______________________________")
 print(f"DoS ATTACK STARTED ON {ip}:{port}")
