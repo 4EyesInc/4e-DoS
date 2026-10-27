@@ -13,7 +13,7 @@ print(r""" _   ___  _______         ______   _______  _______
 |       ||   |___ |____| | | |   ||  | |  || |_____ 
 |___    ||    ___|       | |_|   ||  |_|  ||_____  |
     |   ||   |___        |       ||       | _____| |
-    |___||_______|       |______| |_______||_______|"")
+    |___||_______|       |______| |_______||_______|""")
 print("Author   : mrwin & plasma")
 print("Github   : github.com/mrwin")
 print("Note: This tool is illegal to misuse and is for educational purposes only. Use it at your own risk. We aren't responsible for your actions.")
